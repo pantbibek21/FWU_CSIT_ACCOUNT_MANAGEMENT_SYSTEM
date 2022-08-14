@@ -1,0 +1,188 @@
+
+       
+        .content .imgWrapper {
+            width: 200px;
+            height: 220px;
+            border-radius: 50%;
+            position: absolute;
+            right: 70px;
+            top: 70px;
+            
+            
+        }
+        .content .imgWrapper img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .content .heading {
+            font-family: "Poppins";
+            color: blue;
+            text-align: center;
+        }
+        .content > .heading {
+            margin-bottom: 40px;
+        }
+
+        .content > .responseForm {
+            /* border: 1px solid red; */
+            padding: 10px;
+            width: 800px;
+           
+        }
+       .content .responseForm .formField {
+            margin-bottom: 12px;
+        }
+
+     
+        .responseForm  label, .paymentForm label {
+            font-size: 20px;
+            width: 180px;
+            display: inline-block;
+            /* background-color:rgb(152, 162, 170); */
+        }
+        .responseForm input ,.paymentForm input{
+            font-family: "Poppins";
+            height: 30px;
+            font-size: 18px;
+            width: 60%;
+            padding: 3px 12px;
+            border-radius: 4px;
+        }
+        .content .paymentBtn{
+            display: block;
+            margin-left: 100px;
+            padding: 4px 16px;
+            font-family: "Poppins";
+            font-size: 16px;
+            border-radius: 4px;
+            border-color: rgba(0, 0, 0, 0.548);
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        .content .paymentBtn:hover {
+            background: black;
+            color: white;
+           
+        }
+        
+
+        .paymentHistory > .heading {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-top: 40px;
+        }
+        .paymentHistory .lineBreak {
+            height: 3px;
+            margin-bottom: 10px;
+        }
+
+        .paymentHistory table {
+            /* border: 1px solid red; */
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        table tr th {
+           font-size: 20px;
+        }
+        table tr td {
+            font-size: 18px;
+            padding: 6px 0px;
+        }
+
+
+
+        .paymentForm {
+            
+            width: 400px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 4px black;
+            padding: 10px 22px;
+            padding-top: 30px;
+            position: absolute;
+            background-color: black;
+            color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            z-index: 5;
+        }
+        .paymentForm input {
+            width: 100%;
+            border: none;
+            margin-top: 4px;
+            margin-bottom: 10px;
+            outline: 1px solid rgba(0, 0, 0, 0.682);
+
+        }
+        .paymentForm input:hover{
+            border: 1px solid blue;
+           
+        }
+        .paymentForm input[type="submit"]{
+            cursor: pointer;
+            width: 80px;
+            margin-left: auto;
+            display: block;
+            margin-right: 60px;
+            margin-top: 12px;
+            background-color: red;
+            color: white;
+            border: none;
+            transition: all 0.3s ease;
+    
+        }
+        .paymentForm input[type="submit"]:hover {
+            color: black;
+            font-weight: bold;
+            background-color:greenyellow;
+        }
+
+        .paymentForm .closeBtn {
+            font-weight: bold;
+            font-size: 18px;
+            font-family: cursive;
+            color: red;
+            padding: 1px 4px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+        }
+        .paymentForm .closeBtn:hover {
+            background: black;
+            color: white;
+        }
+        .paymentForm .closeBtn:active {
+            color: blue;
+        }
+
+        .notification {
+            color: red;
+
+        }
+
+        #updateBtn, #saveBtn {
+            width: 160px;
+            border-radius: 3px;
+            line-height: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 20px;
+            
+        }
+        #updateBtn:hover {
+            background-color: black;
+            color: white;
+        }
+        #saveBtn:hover {
+            background-color: greenyellow;
+        }
+      
+    

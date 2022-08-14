@@ -1,0 +1,45 @@
+.heading {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    text-shadow: 1px 1px cyan;
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+.heading::before {
+    content: "";
+    color: white;
+    width: 300px;
+    height: 6px;
+    background-image: linear-gradient(to right, white , cyan);
+    position: absolute;
+    bottom: -10px;
+    border-radius: 2px;
+    transition: all 0.6s ease-in;
+}
+.heading:hover::before{
+    width: 500px;
+}
+.container table {
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px 1px cyan;
+    border-radius: 8px;
+    width: 1000px;
+    margin:auto;
+    margin-top: 77px;
+    padding: 10px;
+}
+table th {
+    padding-bottom: 10px;
+}
+table tr {
+    text-align: center;
+}
+table td {
+    padding-bottom: 10px;
+}

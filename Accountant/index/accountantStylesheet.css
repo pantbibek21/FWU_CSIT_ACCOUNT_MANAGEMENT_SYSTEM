@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    background-image: url(http://localhost/crystal/Images/sunrise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .header {
+    padding: 25px;
+    padding-top: 30px;
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-weight: 600;
+    /* border-bottom: 2px solid rgba(0, 0, 255, 0.316); */
+    /* background: yellow; */
+    /* box-shadow: 0px 0px 1px blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.container .quoteWrapper {
+    /* background-color: yellowgreen; */
+    padding-top: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: black;
+
+}
+
+.container .quoteWrapper .userName {
+    font-family: cursive;
+
+}
+
+.quoteWrapper .welcomeMsg {
+    text-shadow: 0px 0px 1px black;
+
+}
+
+.quoteWrapper .quote {
+    /* background-color: red; */
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+
+
+.quoteWrapper .author {
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+
+.quoteWrapper .quote .quoteContent {
+    padding: 4px 40px;
+    font-family: cursive;
+}
+
+.container .menu {
+    margin-top: 40px;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.container .menu a {
+    text-decoration: none;
+    border: 1px solid black;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 0px 3px 0px rgb(57, 181, 239);
+    background-color: rgba(0, 0, 255, 0.096);
+}
+
+.container .menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+
